@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        
       },
       fontFamily: {  
         urban: ['var(--font-urban)', 'sans-serif'], // Custom font family  

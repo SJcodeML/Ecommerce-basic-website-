@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { groq} from "next-sanity";
 import { client} from "@/sanity/lib/client";
+import Hero from "@/components/Hero";
+import Products from "@/components/Products";
 
 
 
@@ -11,6 +13,10 @@ export default async function Home() {
  
   
   return (
-  <div className="bg-black text-2xl text-white font-urban-" >dsdkcknknk</div>
+  <div>
+    <Hero/>
+    <Products/>
+    
+  </div>
   );
 }
