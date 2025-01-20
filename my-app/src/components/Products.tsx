@@ -103,8 +103,9 @@ export default async function DataDisplay() {
 
                         return (  
                             <Link href={`/product/${product.slug.current}`}>
-                            <div key={index} className="bg-white h-64 w-48 drop-shadow-lg">  
-                                <Image   
+                            <div  key={index}className="bg-white h-64 w-48 drop-shadow-lg">  
+                                <Image  
+                                
                                     src={imageUrl}  
                                     alt={product.slug.current || "Product Image"}  
                                     width={100}  
